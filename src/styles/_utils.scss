@@ -1,0 +1,305 @@
+body {
+	//Set Base color for everything as default
+	@include brand-color(dark2);
+}
+
+//Header gray
+.header-gray{
+	@include FedraSerifBProBook;
+	font-size: 18px;
+	@include brand-color(light1);
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.white-space{
+	margin: 20px 0;
+
+	&.nomargin{
+		margin: 0px;
+	}
+
+	&.withpadding{
+		padding: 20px 0;
+	}
+}
+
+//bg-color-$color classes from brand colors (_config.scss)
+@each $name, $color in $colors {
+  .bg-color-#{$name} {
+    background-color: #{$color};
+  }
+
+  .text-color-#{$name} {
+    color: #{$color};
+  }
+}
+
+//Base styles
+
+//paragraph
+p {
+	@include FedraSerifBProBook;
+	font-size: 14px;
+	line-height: 1.8;
+}
+
+//quotes
+blockquote{
+	@include FedraSansStdLight;
+	font-size: 20px;
+	line-height: 1.8;
+	border: none;
+	padding: 0;
+
+	&.quote-2{
+		@include FedraSerifBProBook;
+	}
+}
+
+//highligh
+.text-highlight{
+	@include FedraSerifBProBook;
+	font-size: 16px;
+	@include brand-color(base);
+	text-transform: uppercase;
+	line-height: 1.8;
+}
+
+//small text
+.text-smalltext{
+	@include FedraSansStdLight;
+	font-size: 14px;
+	line-height: 1.625;
+	@include brand-color(light1);
+}
+.text-xsmalltext{
+	@include FedraSansStdLight;
+	font-size: 12px;
+	line-height: 1.625;
+	@include brand-color(light1);
+}
+
+//header 1
+h1,
+.h1 {
+	@include FedraSerifBProBook;
+	font-size: 90px;
+	@include brand-color(dark2);
+}
+
+h2,
+.h2{
+	@include FedraSerifBProBook;
+	font-size: 35px;
+	@include brand-color(base);
+	text-transform: uppercase;
+}
+
+h3,
+.h3{
+	@include FedraSerifBProBook;
+	font-size: 25px;
+	@include brand-color(base);
+}
+
+h4,
+.h4{
+	@include FedraSerifBProMedium;
+	font-size: 20px;
+	@include brand-color(light1);
+	text-transform: uppercase;
+}
+
+
+
+//buttons
+.btn{
+	&.btn-brand{
+		border: 2px solid #{map-get($colors, base)};
+		border-radius: 20px;
+		line-height: 1;
+		@include FedraSerifBProBook;
+		font-size: 18px;
+		text-transform: uppercase;
+		@include brand-color(dark2);
+		background-color: transparent;
+		padding: 10px 25px;
+		letter-spacing: 3px;
+
+		&.has-icon{
+			margin-left: 38px;
+
+			[class*="icon-"] {
+				@include brand-color(base);
+				font-size: 25px;
+				vertical-align: middle;
+				position: absolute;
+				margin-left: -58px;
+				margin-top: -3px;
+			}
+		}
+
+		&.btn-large{
+			font-size: 25px;
+			padding: 0px 50px;
+			border-width: 3px;
+			border-width: 3.5px;
+			border-radius: 50px;
+
+			height: 60px;
+			line-height: 55px;
+
+			@include respond-to(medium) {
+				font-size: 20px;
+			}
+
+			&.has-icon{
+				margin-left: 0px;
+			}
+
+			svg{
+				display: none;
+			}
+
+			&.is-path{
+				transition: border-color 0.3s, color 0s;
+				border-color: transparent;
+				position: relative;
+				border-width: 0px;
+				color: transparent;
+				line-height: 60px;
+
+				[class*="icon-"] {
+					color: transparent;
+				}
+
+				&.is-animated{
+					transition: color 0.5s, padding 0.5s;
+					@include brand-color(dark2);
+					
+					span{
+						display: inline-block;
+						vertical-align: middle;
+						margin-left: 35px;
+					}
+
+					[class*="icon-"] {
+						position: absolute;
+						left: 24px;
+						top: 50%;
+						margin-top: -12px;
+						transition: color 0.5s;
+						@include brand-color(base);
+					}
+				}
+
+				svg{
+					position: absolute;
+					top: 0;
+					left: 0;
+					display: block;
+
+					path{
+						transition: all 0.5s;
+						stroke: #{map-get($colors, base)};
+					}
+				}
+
+
+				&.js-noanimation{
+					&,
+					[class*="icon-"] {
+						transition: all 0s !important;
+					}
+
+					svg{
+						path {
+							transition: all 0s !important;
+						}
+					}
+				}
+
+			}
+		}
+
+		&,
+		&:hover,
+		&:focus{
+			box-shadow: none;
+		}
+	}
+}
+
+
+//links (navigation)
+a,
+.navigation-text{
+	@include FedraSansStdLight;	
+	font-size: 20px;
+	&,
+	&:hover,
+	&:focus{
+		@include brand-color(dark2);
+		text-decoration: none;
+	}
+
+
+	&.link-small{
+		@include FedraSansStdMedium;	
+		font-size: 17px;
+		
+		&,
+		&:hover,
+		&:focus{
+			@include brand-color(light8);
+		}
+	}
+
+	&.link-large{
+		@include FedraSansStdMedium;
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+}
+
+
+
+//Clearfix
+.clearfix{
+	display: block;
+	clear: both;
+}
+
+//text-align
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'School Icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@each $name, $icon in $icons {
+  .icon-#{$name}:before {
+    content: $icon;
+  }
+}

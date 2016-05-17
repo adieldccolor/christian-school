@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" sodipodi:docname="pencil.svg" inkscape:version="0.91 r13725" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="39.65px" height="39.65px"
+	 viewBox="0 0 39.65 39.65" enable-background="new 0 0 39.65 39.65" xml:space="preserve">
+<sodipodi:namedview  id="base" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-width="1366" inkscape:window-height="705" fit-margin-right="0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" fit-margin-bottom="0" inkscape:current-layer="g4572" inkscape:document-units="px" inkscape:window-maximized="1" fit-margin-top="0" inkscape:cy="-182.29822" showgrid="false" bordercolor="#666666" inkscape:cx="-11.085415" borderopacity="1.0" inkscape:zoom="0.49497475" pagecolor="#ffffff" fit-margin-left="0">
+	</sodipodi:namedview>
+<g id="layer1" transform="translate(-413.37253,-598.3841)" inkscape:groupmode="layer" inkscape:label="Layer 1">
+	<g id="g4572" transform="translate(45.614518,492.85206)">
+		<g id="g4412">
+			<g id="g4414">
+				<g id="g4416">
+					<g id="polyline4418">
+						<path fill="#C62828" d="M368.558,145.383c-0.264,0-0.519-0.104-0.707-0.293c-0.204-0.204-0.31-0.486-0.291-0.774l0.729-10.816
+							c0.037-0.551,0.513-0.942,1.065-0.931c0.551,0.037,0.967,0.515,0.93,1.065l-0.652,9.674l9.674-0.652
+							c0.564-0.013,1.028,0.38,1.065,0.931c0.037,0.551-0.379,1.028-0.93,1.065l-10.816,0.729
+							C368.603,145.382,368.58,145.383,368.558,145.383z"/>
+					</g>
+					<g id="polyline4420">
+						<path fill="#C62828" d="M379.374,144.653c-0.265,0-0.52-0.105-0.707-0.293l-10.086-10.087c-0.391-0.391-0.391-1.023,0-1.414
+							l20.484-20.483c0.391-0.391,1.023-0.391,1.414,0l3.72,3.72c0.391,0.391,0.391,1.023,0,1.414s-1.023,0.391-1.414,0
+							l-3.013-3.013l-19.07,19.069l8.672,8.673l16.821-16.821c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-17.528,17.528
+							C379.893,144.548,379.639,144.653,379.374,144.653z"/>
+					</g>
+					<g id="polyline4422">
+						<path fill="#C62828" d="M373.008,138.286c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414l20.483-20.483
+							c0.188-0.188,0.441-0.293,0.707-0.293l0,0c0.266,0,0.52,0.105,0.707,0.293l5.659,5.66l1.357-1.357l-9.38-9.379
+							c-0.391-0.391-0.391-1.023,0-1.414l3.979-3.98c0.375-0.375,1.039-0.375,1.414,0l10.086,10.087
+							c0.391,0.391,0.391,1.023,0,1.414l-3.979,3.979l0,0l-2.771,2.771c-0.375,0.375-1.039,0.375-1.414,0l-5.659-5.66
+							l-19.776,19.776C373.519,138.188,373.263,138.286,373.008,138.286z M393.956,110.312l8.673,8.672l2.564-2.565l-8.672-8.673
+							L393.956,110.312z"/>
+					</g>
+				</g>
+				<g id="polygon4424">
+					<polygon fill="#C62828" points="368.558,144.382 372.049,144.146 368.793,140.891 					"/>
+					<path fill="#C62828" d="M368.558,145.383c-0.264,0-0.519-0.104-0.707-0.293c-0.204-0.204-0.31-0.486-0.291-0.774l0.235-3.491
+						c0.026-0.392,0.279-0.731,0.646-0.869c0.367-0.137,0.781-0.05,1.059,0.229l3.256,3.255c0.277,0.277,0.367,0.691,0.229,1.059
+						c-0.138,0.367-0.478,0.62-0.869,0.646l-3.491,0.236C368.603,145.382,368.58,145.383,368.558,145.383z"/>
+				</g>
+			</g>
+			<g id="line4426">
+				<path fill="#C62828" d="M389.771,114.083c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.39-0.391-1.023,0-1.414l2.771-2.771
+					c0.391-0.391,1.023-0.391,1.414,0c0.391,0.39,0.391,1.023,0,1.414l-2.771,2.771
+					C390.283,113.986,390.027,114.083,389.771,114.083z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

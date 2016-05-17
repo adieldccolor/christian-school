@@ -1,0 +1,90 @@
+
+//fonts
+@mixin FedraSansStdBold {
+	font-family: 'FedraSansStd Bold', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin FedraSansStdBook {
+	font-family: 'FedraSansStd Book', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin FedraSansStdLight {
+	font-family: 'FedraSansStd Light', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin FedraSansStdLightItalic {
+	font-family: 'FedraSansStd LightItalic', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin FedraSansStdMedium {
+	font-family: 'FedraSansStd Medium', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin FedraSerifBProBold {
+	font-family: 'FedraSerifBPro Bold', serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin FedraSerifBProBook {
+	font-family: 'FedraSerifBPro Book', serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin FedraSerifBProBookItalic {
+	font-family: 'FedraSerifBPro BookItalic', serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin FedraSerifBProMedium {
+	font-family: 'FedraSerifBPro Medium', serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin FedraSerifBProNormalItalic {
+	font-family: 'FedraSerifBPro NormalItalic', serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+//colors
+@mixin brand-color($color) { 
+  @if map-has-key($colors, $color) {
+    color: #{map-get($colors, $color)};
+  }
+
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$color}`. "
+        + "Please make sure it is defined in `$colors` map.";
+  }
+}
+
+@mixin brand-color-bg($color) { 
+  @if map-has-key($colors, $color) {
+    background-color: #{map-get($colors, $color)};
+  }
+
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$color}`. "
+        + "Please make sure it is defined in `$colors` map.";
+  }
+}
+
+
+//Media queries mixin
+@mixin respond-to($breakpoint) { 
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
+}

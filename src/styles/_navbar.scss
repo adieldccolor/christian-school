@@ -1,0 +1,119 @@
+//HEADER
+.navbar-main{
+	min-height: 128px;
+	margin: 0;
+
+	.container {
+		margin-top: 32px;
+		margin-bottom: 32px;
+
+		.navbar-brand{
+			margin: 0;
+			padding: 0;
+			height: 64px;
+
+			img {
+				max-height: 64px;
+			}
+		}
+
+		.nav,
+		.navbar-nav{
+			height: 64px;
+			padding-top: 22px;
+
+			> li {
+				> a{
+					@include FedraSansStdLight;
+					font-size: 20px;
+					@include brand-color(dark1);
+
+					padding-top: 0;
+			    padding-bottom: 0;
+			    height: 26px;
+			    line-height: 26px;
+
+					&:hover,
+					&:focus {
+						background-color: transparent;
+						@include brand-color(base);
+					}
+
+					&.has-icon{
+						@include brand-color(light1);
+					}
+				}
+
+				&.is-active {
+					a {
+						&,
+						&:hover,
+						&:focus {
+							background-color: transparent;
+							@include brand-color(base);
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+
+
+//SUBMENU
+.submenu-navbar{
+	@include brand-color-bg(light3);
+	min-height: 90px;
+
+	.page-title{
+		@include FedraSerifBProMedium;
+		font-size: 20px;
+		text-transform: uppercase;
+		line-height: 1;
+		@include brand-color(light1);
+		padding: 36px 0 30px;
+		float: left;
+	}
+
+	.navbar-nav{
+		padding: 37px 0;
+
+		> li {
+			border-right: 1px solid #{map-get($colors, light1)};
+
+			&:last-child {
+				border-right: none;
+			}
+
+			@include respond-to(small) {
+				border: none;
+			}
+
+			> a{
+				@include FedraSansStdBook;
+				font-size: 16px;
+				line-height: 16px;
+				@include brand-color(dark1);
+				padding: 0 24px;
+				text-transform: uppercase;
+
+				&:hover,
+				&:focus{
+					background-color: transparent;
+					@include brand-color(base);
+				}
+			}
+
+			&.is-active{
+				> a{
+					&,
+					&:hover,
+					&:focus{
+						@include brand-color(base);
+					}
+				}
+			}
+		}
+	}
+}

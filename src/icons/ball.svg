@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" sodipodi:docname="ball.svg" inkscape:version="0.91 r13725" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="37.606px"
+	 height="37.608px" viewBox="0 0 37.606 37.608" enable-background="new 0 0 37.606 37.608" xml:space="preserve">
+<sodipodi:namedview  id="base" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-width="1366" inkscape:window-height="705" fit-margin-right="0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" fit-margin-bottom="0" inkscape:current-layer="g4572" inkscape:document-units="px" inkscape:window-maximized="1" fit-margin-top="0" inkscape:cy="64.8343" showgrid="false" bordercolor="#666666" inkscape:cx="618.27534" borderopacity="1.0" inkscape:zoom="0.49497475" pagecolor="#ffffff" fit-margin-left="0">
+	</sodipodi:namedview>
+<g id="layer1" transform="translate(-58.114519,-505.35206)" inkscape:groupmode="layer" inkscape:label="Layer 1">
+	<g id="g4572" transform="translate(45.614518,492.85206)">
+		<g id="g4112">
+			<g id="g4114">
+				<g id="line4116">
+					<path fill="#C62828" d="M44.028,45.028c-0.256,0-0.512-0.098-0.707-0.293L17.865,19.279c-0.391-0.391-0.391-1.023,0-1.414
+						s1.023-0.391,1.414,0l25.457,25.456c0.391,0.391,0.391,1.023,0,1.414C44.54,44.93,44.284,45.028,44.028,45.028z"/>
+				</g>
+			</g>
+			<g id="circle4118">
+				<path fill="#C62828" d="M31.3,50.3c-10.477,0-19-8.523-19-19s8.523-19,19-19s19,8.523,19,19S41.777,50.3,31.3,50.3z M31.3,14.3
+					c-9.374,0-17,7.626-17,17s7.626,17,17,17s17-7.626,17-17S40.674,14.3,31.3,14.3z"/>
+			</g>
+			<g id="path4120">
+				<path fill="#C62828" d="M30.998,50.297c-0.544,0-0.99-0.437-1-0.983c-0.033-1.984,0.241-3.948,0.813-5.839
+					c0.269-0.891,0.607-1.77,1.005-2.611c0.235-0.499,0.832-0.715,1.332-0.477c0.499,0.236,0.713,0.833,0.477,1.332
+					c-0.356,0.753-0.659,1.538-0.899,2.335c-0.513,1.692-0.757,3.45-0.728,5.227c0.009,0.553-0.431,1.008-0.983,1.017
+					C31.009,50.297,31.004,50.297,30.998,50.297z"/>
+			</g>
+			<g id="path4122">
+				<path fill="#C62828" d="M36.268,37.265c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414
+					c3.673-3.674,8.555-5.654,13.75-5.563c0.552,0.009,0.992,0.464,0.983,1.017c-0.009,0.546-0.455,0.984-1,0.984
+					c-0.081,0-0.204-0.003-0.307-0.003c-4.539,0-8.795,1.762-12.013,4.979C36.779,37.167,36.524,37.265,36.268,37.265z"/>
+			</g>
+			<g id="path4124">
+				<path fill="#C62828" d="M26.409,27.259c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414
+					c3.211-3.211,4.979-7.48,4.979-12.021c0-0.552,0.448-1,1-1c0.553,0,1,0.448,1,1c0,5.075-1.976,9.847-5.565,13.435
+					C26.921,27.162,26.665,27.259,26.409,27.259z"/>
+			</g>
+			<g id="path4126">
+				<path fill="#C62828" d="M13.684,32.532c-0.107,0-0.214-0.001-0.322-0.003c-0.552-0.01-0.993-0.465-0.983-1.017
+					c0.009-0.553,0.513-1.01,1.017-0.983c1.776,0.035,3.532-0.215,5.226-0.728c0.765-0.232,1.52-0.52,2.242-0.856
+					c0.501-0.235,1.096-0.017,1.329,0.484c0.233,0.5,0.017,1.096-0.484,1.329c-0.809,0.377-1.652,0.699-2.508,0.958
+					C17.411,32.257,15.557,32.532,13.684,32.532z"/>
+			</g>
+			<g id="polyline4128">
+				<path fill="#C62828" d="M18.572,45.028c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414l8.446-8.446
+					c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-8.446,8.446C19.084,44.93,18.828,45.028,18.572,45.028z"/>
+			</g>
+			<g id="polyline4130">
+				<path fill="#C62828" d="M31.3,32.3c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414l12.705-12.705
+					c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L32.007,32.007C31.812,32.203,31.556,32.3,31.3,32.3z"/>
+			</g>
+			<g id="path4132">
+				
+					<path inkscape:connector-curvature="0" fill="none" stroke="#C62828" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="
+					M44.028,18.572"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

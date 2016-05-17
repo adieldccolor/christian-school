@@ -1,0 +1,71 @@
+/* *** === COLORS === *** */
+
+$colors: (
+		'base': '#C42929',
+		'dark1': '#262626',
+		'dark2': '#404041',
+		'dark3': '#414242',
+		'light1': '#BCBDBF',
+		'light2': '#E6E6E6',
+		'light3': '#f1f1f1',
+		'light4': '#BBBBBD',
+		'light5': '#5A595C',
+		'light6': '#6E6F71',
+		'light7': '#A5A6A9',
+		'light8': '#808184',
+		'white': '#fff'
+  );
+
+$breakpoints: (
+  small: 'screen and (max-width: 767px)',
+  medium: 'screen and (max-width: 992px)',
+  large: 'screen and (max-width: 1200px)',
+  print: 'print'
+);
+
+$icons: (
+	imagotype: "\e900",
+	less: "\e901",
+	list: "\e902",
+	lock-icon: "\e903",
+	medal: "\e904",
+	medal-times: "\e905",
+	money: "\e906",
+	pencil: "\e907",
+	pencil-hat: "\e908",
+	people: "\e909",
+	person: "\e90a",
+	pillar: "\e90b",
+	quote: "\e90c",
+	share: "\e90d",
+	shoe: "\e90e",
+	times: "\e90f",
+	tintbottle: "\e910",
+	tower: "\e911",
+	wheel: "\e912",
+	alphabet: "\e913",
+	ball: "\e914",
+	berry: "\e915",
+	bible: "\e916",
+	brush: "\e917",
+	calendar: "\e918",
+	colorswatch: "\e919",
+	conversation: "\e91a",
+	document: "\e91b",
+	documents: "\e91c",
+	door-frame: "\e91d",
+	envelope: "\e91e",
+	glasses: "\e91f",
+	heart: "\e920",
+	home: "\e921",
+	facebook: "\e922",
+	instagram: "\e923",
+	twitter: "\e924",
+	arrow-bottom: "\e925",
+	arrow-top: "\e926",
+	lock: "\e927",
+	play: "\e928",
+	play-circle: "\e929",
+	resources: "\e92a",
+	signature: "\e92b"
+);
